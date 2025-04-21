@@ -1,5 +1,6 @@
 {
-  "name": "package",
+  "name": "lost-socket-website",
+  "homepage": "https://lostsocket.github.io/LostSocketWebsite/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
