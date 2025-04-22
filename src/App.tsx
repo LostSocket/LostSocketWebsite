@@ -72,7 +72,7 @@ function App() {
             {/* Main Content */}
             <div className="content">
                 <h1>Lost Socket Games</h1>
-                <p className="construction">Site under construction. Stay tuned for more!</p>
+                <p className="construction">Site under construction 🚧. Stay tuned for more!</p>
                 <nav className="links">
                     <a href="https://lostsocket.itch.io/" target="_blank" rel="noopener noreferrer">
                         Game Jams
