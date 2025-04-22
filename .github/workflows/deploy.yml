@@ -49,3 +49,18 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
+      # Send notification to Telegram
+      - name: Send to Telegram
+        if: success()
+        uses: appleboy/telegram-action@master
+        with:
+          to: ${{ secrets.TELEGRAM_TO }}
+          token: ${{ secrets.TELEGRAM_TOKEN }}
+          message: |
+            🎉 **New Website Deployment** 🎉
+            The website has been successfully deployed and is now live at:
+            🌐 **https://lostsocket.net**
+            Environment: GitHub Pages
+            Repository: ${{ github.repository }}
+            Commit: ${{ github.sha }}
