@@ -84,7 +84,7 @@ function App() {
                         X (@L05t50ck3t)
                     </a>
                     <a href="mailto:cristian@lostsocket.net">Contact</a>
-                    <a href="https://blog.lostsocket.net" target="_blank" rel="noopener noreferrer">
+                    <a href="https://publish.obsidian.md/lostsocket" target="_blank" rel="noopener noreferrer">
                         Blog
                     </a>
                 </nav>
